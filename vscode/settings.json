@@ -1,0 +1,21 @@
+{
+  "prettier.singleQuote": true,
+  "workbench.statusBar.feedback.visible": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "files.autoSave": "off",
+  "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+  "flow.runOnEdit": false,
+  "editor.tabSize": 2,
+  "jest.showCoverageOnLoad": true,
+  "jest.debugMode": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "window.zoomLevel": 0,
+  "flow.useNPMPackagedFlow": true,
+  "prettier.requireConfig": true,
+  "workbench.colorTheme": "One Monokai"
+}
+
