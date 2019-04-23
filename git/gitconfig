@@ -15,7 +15,9 @@
 	p = format-patch --stdout
 	co = checkout
 	c = commit
+  s = status
   ca = commit -a
+  pom = push origin master
 	cp = cherry-pick
 	me = merge
 	pr = !open "$(git config remote.origin.url)/pull/new/master" # create new PR
@@ -39,7 +41,7 @@
 [color]
 	ui = true
 [github]
-    user = gaykov
+  user = gaykov
 [format]
 	pretty = %C(auto)%h - %s%d%n%+b%+N(%G?) %an <%ae> (%C(blue)%ad%C(auto))%n
 [hub]
